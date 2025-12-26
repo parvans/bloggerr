@@ -1,6 +1,6 @@
 import { Article, PaginatedResponse } from "./types"
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api"
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://bloggerr-9t8p.onrender.com/api"
 
 export async function fetchArticles(params:{
   page?: number,
